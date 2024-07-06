@@ -1,3 +1,27 @@
+# Auto-Click Script
+
+Ce script JavaScript clique automatiquement sur des boutons et des divs spécifiques sur une page web toutes les 5 secondes. Il est conçu pour fonctionner avec des éléments ayant des classes et des structures HTML particulières.
+
+## Fonctionnalités
+
+- Clique sur les boutons situés dans des divs avec la classe `flex justify-end`.
+- Clique sur les boutons avec des classes spécifiques et des éléments internes spécifiques.
+- Recherche des divs avec la classe `flex items-center gap-1` contenant le texte "Next Lesson" et effectue des actions sur ces divs.
+
+## Utilisation
+
+### Étapes
+
+1. Ouvrez votre navigateur et accédez à la page contenant les éléments sur lesquels vous voulez cliquer.
+2. Ouvrez les outils de développement du navigateur :
+   - Windows/Linux: `F12` ou `Ctrl+Shift+I`
+   - macOS: `Cmd+Option+I`
+3. Allez dans l'onglet "Console".
+4. Copiez et collez le script ci-dessous dans la console, puis appuyez sur Entrée.
+
+### Script
+
+```javascript
 // Fonction pour cliquer sur les boutons et divs avec les classes et éléments spécifiés
 function clickButtons() {
     // Sélection des divs avec la classe "flex justify-end"
